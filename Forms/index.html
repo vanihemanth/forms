@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>forms</title>
+       <style>
+        body{
+            background-color: rgb(68, 97, 184);
+        }
+        div{
+            background-color: white;
+            width:25%;
+            margin:15px auto;
+            
+        }
+        h1{
+            text-align: center;
+        }
+        p{
+            margin-bottom: 2px;;
+        }
+        form{
+            padding:20px;
+        }
+        textarea{
+            margin-bottom: 5px;;
+        }
+        button{
+            margin-top:10px;
+        }
+       </style>
+
+    </head>
+    <body>
+         <h1>Signup</h1>
+            <div>
+                <form method="post">
+                    <p>Full Name:</p>
+        <input type="text" style="width:95%"/>
+        <p>Email:</p>
+        <input type="email" style="width:95%"/>
+        <p>Age:</p>
+        <input type="number" style="width:95%"/>
+        <p>Password:</p>
+        <input type="password" style="width:95%"/>
+        <p>Confirm Password:</p>
+        <input type="password" style="width:95%"/>
+        <p>Gender</p>
+        <input type="radio" name="gender"/><span>Male</span>
+        <input type="radio" name="gender"/> <span>Female</span>
+        <input type="radio" name="gender"/> <span>Others</span></br>
+        <p>Security Question:</p>
+        <select style="width:95%">
+            <p>Security Question:</p>
+            <option >what is ur first pet name?</option>
+            <option>what is ur city name?</option>
+        </select></br>
+        <textarea style="width:95%" rows="5" cols="20"></textarea></br>
+        <input type="checkbox"><span>I agree to accept terms and conditions</span></br>
+        <button type="submit">Register</button>
+             </form>
+        </div>
+    </body>
+</html>
